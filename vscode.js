@@ -47,7 +47,7 @@
   },
   // show snippets before any other auto completion
   "editor.snippetSuggestions": "top",
-  // this lets you quick open multiple items in a row and now have the previous ones closed on you
+  // this lets you quickly open multiple items in a row and not have the previous ones closed on you
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "sublimeTextKeymap.promptV3Features": true,
