@@ -19,6 +19,7 @@
     "jquery": true
   },
   "rules": {
+    "no-debugger": 0,
     "no-unused-vars": [
       1,
       {
@@ -101,7 +102,7 @@
     ]
   },
   "plugins": [
-    "html",
+    // "html",
     "prettier"
   ]
 }
