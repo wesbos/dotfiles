@@ -16,7 +16,8 @@
   "env": {
     "browser": true,
     "node": true,
-    "jquery": true
+    "jquery": true,
+    "jest": true
   },
   "rules": {
     "no-debugger": 0,
@@ -29,6 +30,12 @@
     "arrow-body-style": [
       2,
       "as-needed"
+    ],
+    "no-unused-expressions": [
+      2,
+      {
+        "allowTaggedTemplates": true
+      }
     ],
     "no-param-reassign": [
       2,
