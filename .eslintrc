@@ -21,6 +21,7 @@
   },
   "rules": {
     "no-debugger": 0,
+    "no-alert": 0,
     "no-unused-vars": [
       1,
       {
@@ -96,7 +97,7 @@
       {
         "trailingComma": "es5",
         "singleQuote": true,
-        "printWidth": 120,
+        "printWidth": 100,
       }
     ],
     "jsx-a11y/href-no-hash": "off",
