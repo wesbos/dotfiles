@@ -11,6 +11,7 @@
   "editor.tabSize": 2,
   // this isn't really underline but we hack it to be a thicker cursor
   "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3, 
   "editor.wordWrap": "on",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.fontWeight": "400",
