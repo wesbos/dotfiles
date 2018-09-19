@@ -67,6 +67,7 @@
     "react/forbid-prop-types": 0,
     "react/no-unescaped-entities": 0,
     "jsx-a11y/accessible-emoji": 0,
+    "react/require-default-props": 0,
     "react/jsx-filename-extension": [
       1,
       {
@@ -104,7 +105,7 @@
       {
         "trailingComma": "es5",
         "singleQuote": true,
-        "printWidth": 100,
+        "printWidth": 80,
       }
     ],
     "jsx-a11y/href-no-hash": "off",
