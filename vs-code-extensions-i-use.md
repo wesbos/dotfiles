@@ -1,6 +1,10 @@
+<!-- Image from: https://github.com/flathub/com.visualstudio.code/issues/13#issuecomment-361267684 -->
+
 ## VS Code <img src="https://user-images.githubusercontent.com/66894/35516274-a74fd78c-050b-11e8-9e6e-b104c06dd9bc.png"  width="25" height="25">
 
 Here are a list of all the extensions I use. This is an ever-changing setup, so if you saw me use something in a video or screenshot, it might be in this list!
+
+<!-- Images from: https://marketplace.visualstudio.com/VSCode -->
 
 | Name                                                                                                                                                                                                                            | Install                                           | Link                                                                                      |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------ | :---------------------------------------------------------------------------------------- |
