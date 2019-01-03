@@ -1,17 +1,17 @@
 {
-  "window.zoomLevel": -1,
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 29,
   "editor.lineHeight": 40,
+  "editor.quickSuggestionsDelay": 500,
   "editor.letterSpacing": 0.5,
   "workbench.editor.tabSizing": "shrink",
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
   "files.trimTrailingWhitespace": true,
   "editor.tabSize": 2,
+  "editor.cursorWidth": 5,
   // this isn't really underline but we hack it to be a thicker cursor
   "editor.cursorStyle": "line",
-  "editor.cursorWidth": 3, 
   "editor.wordWrap": "on",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.fontWeight": "400",
@@ -21,14 +21,12 @@
   "vscode_custom_css.imports": [
     "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
   ],
-  "workbench.activityBar.visible": true,
+  "workbench.activityBar.visible": false,
   "workbench.sideBar.location": "left",
-  "gitlens.blame.line.enabled": false,
   "editor.renderWhitespace": "none",
   "editor.rulers": [
     80,
-    100,
-    120
+    100
   ],
   "editor.minimap.showSlider": "always",
   "workbench.startupEditor": "newUntitledFile",
@@ -48,16 +46,56 @@
   },
   // show snippets before any other auto completion
   "editor.snippetSuggestions": "top",
-  // this lets you quickly open multiple items in a row and not have the previous ones closed on you
+  // this lets you quick open multiple items in a row and now have the previous ones closed on you
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "sublimeTextKeymap.promptV3Features": true,
   // These are all my auto-save configs
   "editor.formatOnSave": true,
   // turn it off for JS
+  // WES TURN THIS BACK ON
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
+  "cSpell.userWords": [
+    "SIGNUP",
+    "Signin",
+    "Signout",
+    "TLDR",
+    "Templating",
+    "backend",
+    "camo",
+    "destructure",
+    "gmail",
+    "injectable",
+    "lightgrey",
+    "minmax",
+    "prefetch",
+    "promisify",
+    "refetch",
+    "wesbos"
+  ],
+  "editor.autoIndent": true,
+  "window.closeWhenEmpty": true,
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "editor.showFoldingControls": "always",
+  "editor.find.seedSearchStringFromSelection": true,
+  "editor.matchBrackets": true,
+  "window.openFilesInNewWindow": "off",
+  "workbench.editor.enablePreview": true,
+  "editor.scrollBeyondLastLine": true,
+  "editor.useTabStops": true,
+  "editor.formatOnPaste": true,
+  "[jade]": {
+    "togglequotes.chars": [
+      "\"",
+      "'",
+      "`"
+    ]
+  },
+  "window.zoomLevel": 0,
+  "editor.parameterHints.enabled": false
 }
