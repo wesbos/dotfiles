@@ -6,9 +6,8 @@
   ],
   "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 8,
+    "ecmaVersion": 2018,
     "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
       "impliedStrict": true,
       "classes": true
     }
