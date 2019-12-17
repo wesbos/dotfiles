@@ -8,7 +8,7 @@ module.exports = {
     cursorShape: 'BLOCK',
     wickedBorder: true,
     padding: '10px',
-    shell: '/bin/zsh'
+    shell: '/bin/zsh',
   },
 
 
