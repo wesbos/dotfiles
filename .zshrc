@@ -13,7 +13,7 @@ alias gum="git pull upstream master"
 alias gri="git ls-files --ignored --exclude-standard | xargs -0 git rm -r"
 
 
-# Open all merge conflicts or currently changed files in Sublime Text
+# Open all merge conflicts or currently changed files in VS Code
 # Switch out `code` for `subl`, `vim`, `atom` or your editor's CLI
 alias fix="git diff --name-only | uniq | xargs code"
 
@@ -57,3 +57,22 @@ function zource(){
 
 # Old habbits die hard
 alias subl="code"
+
+
+set-window-title() {
+  window_title="\e]0;${${PWD/#"$HOME"/~}/Dropbox\//}\a"
+  echo -ne "$window_title"
+}
+
+function dl() {
+  svn checkout ${1:gs/tree\/master/trunk}
+}
+
+function openall() {
+  for folder in */; do code $folder && hyper $folder; done
+}
+
+
+PR_TITLEBAR=''
+set-window-title
+add-zsh-hook precmd set-window-title
