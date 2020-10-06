@@ -1,7 +1,6 @@
 {
-  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 29,
-  "editor.lineHeight": 45,
   "editor.quickSuggestionsDelay": 30,
   "editor.letterSpacing": 0.5,
   "workbench.editor.tabSizing": "shrink",
@@ -10,19 +9,17 @@
   "files.trimTrailingWhitespace": true,
   "editor.tabSize": 2,
   "editor.cursorWidth": 5,
-  // this isn't really underline but we hack it to be a thicker cursor
-  "editor.cursorStyle": "line",
   "editor.wordWrap": "on",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.fontWeight": "400",
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": false,
   "editor.minimap.enabled": false,
-  "vscode_custom_css.imports": [
-    "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
-  ],
   "workbench.activityBar.visible": false,
-  "workbench.sideBar.location": "left",
+  // "workbench.colorCustomizations": {
+  //   "window.activeBorder": "#fe2c70",
+  //   "window.inactiveBorder": "#ffc600",
+  // },
   "editor.renderWhitespace": "none",
   "editor.rulers": [
     80,
@@ -32,20 +29,20 @@
   "workbench.startupEditor": "newUntitledFile",
   "extensions.ignoreRecommendations": false,
   "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
+    "**/.cache": true,
     "**/.DS_Store": true,
-    "**/.next": true
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.next": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/dist": true
   },
   "workbench.colorTheme": "Cobalt2",
   "workbench.editor.tabCloseButton": "off",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  // show snippets before any other auto completion
-  "editor.snippetSuggestions": "top",
   // this lets you quick open multiple items in a row and now have the previous ones closed on you
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
@@ -56,8 +53,6 @@
   "[javascript]": {
     "editor.formatOnSave": false
   },
-  // tell the ESLint plugin to run on save
-  "eslint.autoFixOnSave": true,
   // Optional: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
   "prettier.disableLanguages": [
     "js"
@@ -69,16 +64,24 @@
     "Signout",
     "TLDR",
     "Templating",
+    "Updateability",
     "backend",
     "camo",
+    "cloudinary",
     "destructure",
+    "frontmatter",
     "gmail",
     "injectable",
+    "keystonejs",
     "lightgrey",
     "minmax",
     "prefetch",
     "promisify",
     "refetch",
+    "rerender",
+    "slicemasters",
+    "subgrid",
+    "unnesssecary",
     "wesbos"
   ],
   "editor.autoIndent": true,
@@ -100,6 +103,24 @@
       "`"
     ]
   },
-  "window.zoomLevel": 0,
-  "editor.parameterHints.enabled": false
+  "editor.parameterHints.enabled": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.fontLigatures": true,
+  "workbench.tree.indent": 20,
+  "polacode.shadow": "rgba(0, 0, 0, 0.55) 0px 0 0",
+  "polacode.transparentBackground": true,
+  "polacode.target": "snippet",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontSize": 20,
+  "editor.lineHeight": 45,
+  "window.zoomLevel": -1,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "typescript.tsserver.log": "verbose",
+  "propTypes.autoImport": "ES6",
+  "editor.suggest.insertMode": "replace",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "liveshare.featureSet": "stable"
 }

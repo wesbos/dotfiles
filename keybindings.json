@@ -27,4 +27,8 @@
     "key": "ctrl+shift+alt+cmd+h",
     "command": "editor.action.triggerParameterHints"
   },
+  {
+    "key": "ctrl+shift+alt+cmd+a",
+    "command": "editor.action.addSelectionToPreviousFindMatch"
+  },
 ]
