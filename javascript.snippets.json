@@ -1,0 +1,15 @@
+// put this in your javascript.json snippets file. command palette → Preferences: Configure User Snippets → javascript
+{
+  "Console Log": {
+    "prefix": "cl",
+    "body": [
+      "console.log($1);"
+    ],
+    "description": "Log output to console"
+  },
+  "useState snippet": {
+    "prefix": "rus",
+    "body": "const [${1}, set${1/(^[a-zA-Z])(.*)/${1:/upcase}${2}/}] = useState(${2:default${1/(^[a-zA-Z])(.*)/${1:/upcase}${2}/}});",
+    "description": "use state but it camel cases"
+  },
+}
