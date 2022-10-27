@@ -1,5 +1,7 @@
 {
   "editor.fontFamily": "operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
   "editor.fontSize": 25,
   "editor.quickSuggestionsDelay": 30,
   "editor.suggestFontSize": 20,
@@ -18,7 +20,6 @@
   "editor.fontWeight": "400",
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": false,
-  "editor.minimap.enabled": false,
   "workbench.activityBar.visible": false,
   "editor.rulers": [
     80,
@@ -62,21 +63,21 @@
   "[typescriptreact]": {
     "editor.formatOnSave": false
   },
-  // Optional: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
-  "prettier.disableLanguages": [
-    "js",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
+  // tell Autoimport to use single quotes
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
   "eslint.alwaysShowStatus": true,
-  "editor.autoIndent": true,
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.userWords": [
+    "yeet"
+  ],
+  "editor.autoIndent": "full",
   "window.closeWhenEmpty": true,
   "editor.detectIndentation": false,
   "files.insertFinalNewline": true,
   "editor.showFoldingControls": "always",
   "editor.find.seedSearchStringFromSelection": true,
-  "editor.matchBrackets": true,
+  "editor.matchBrackets": "always",
   "window.openFilesInNewWindow": "off",
   "workbench.editor.enablePreview": true,
   "editor.scrollBeyondLastLine": true,
@@ -97,15 +98,12 @@
   "polacode.shadow": "rgba(0, 0, 0, 0.55) 0px 0 0",
   "polacode.transparentBackground": true,
   "polacode.target": "snippet",
-  "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontSize": 20,
   "editor.lineHeight": 45,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
   "typescript.tsserver.log": "verbose",
-  "propTypes.autoImport": "ES6",
-  "kite.showWelcomeNotificationOnStartup": false,
   "liveshare.featureSet": "stable",
   "eslint.validate": [
     "typescript",
@@ -120,10 +118,6 @@
   "cSpell.enableFiletypes": [
     "mdx"
   ],
-  // "vscode_custom_css.imports": [
-  //   "file://Users/wesbos/Dropbox/vscode-theme-cobalt2/css-hacks.css"
-  // ],
-  // "vscode_custom_css.policy": true,
   "selectby.regexes": {
     "regex1": {
       "backward": "\/\\*",
@@ -150,11 +144,11 @@
   },
   "errorLens.exclude": [
     "never (read|used)",
+    "Unknown word"
   ],
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-  "window.zoomLevel": -1,
   "better-comments.tags": [
     {
       "tag": "!",
@@ -220,4 +214,34 @@
       "italic": true
     },
   ],
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.accessibilitySupport": "off",
+  "editor.inlineSuggest.enabled": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "tabnine.experimentalAutoImports": true,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.verticalScrollbarSize": 50,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "editor.inlayHints.enabled": "offUnlessPressed",
+  "window.zoomLevel": -1,
+  "quokka.startViewStatusBar": false
 }
