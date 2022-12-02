@@ -1,0 +1,15 @@
+[user]
+	email = wesbos@gmail.com
+	name = Wes Bos
+[alias]
+	ac = !git add -A && git commit -m
+	acp = !git add -A && git commit -m "$1" && git push && :
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[init]
+	defaultBranch = main
