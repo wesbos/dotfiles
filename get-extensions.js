@@ -1,3 +1,14 @@
+/*
+T get a list of extensions:
+
+1. Open up your extensions list. `⌘+⇧+x`
+2. type in `@enabled`
+3. Open VS Code dev toosls `Help` → `Toggle Developer Tools`
+4. Paste the code from [get-extensions.js](./get-extensions.js) into the console
+5. It will be in your clipboard, so just paste into `vs-code-extensions-i-use.md`
+
+*/
+
 function getExtensions() {
   const extensions = $$('.extensions-list .monaco-list-row').map(function(row) {
     let icon = row.querySelector('.icon').src;
