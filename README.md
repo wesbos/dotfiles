@@ -10,12 +10,12 @@ Enjoy! 😘
 
 
 ## Explanations
-* **Wes Bos .bttpreset** → My [Better Touch Tool]() Settings. This is a collection of shortcuts and automations that I use around window management, video editing, snap areas, and much more. I will do a video on this tool one day - it's amazing.
-* **settings.json** → VS Code Settings
-* **vs-code-extensions-i-use.md** → ya get?
-* **keybindings.json** → Custom Keyboard shortcuts. The emmet Ctrl + E is how I get emmet to work anywhere.
-* **javascript.snippets.json** → Some JS Snippets
-* **hot-tip-vscode-settings.json** → Workspace settings I use for recording my short form content
+* **[Wes Bos .bttpreset](./Wes Bos .bttpreset)** → My [Better Touch Tool]() Settings. This is a collection of shortcuts and automations that I use around window management, video editing, snap areas, and much more. I will do a video on this tool one day - it's amazing.
+* **[settings.json](./settings.json)** → VS Code Settings
+* **[vs-code-extensions-i-use.md](./vs-code-extensions-i-use.md)** → ya get?
+* **[keybindings.json](./keybindings.json)** → Custom Keyboard shortcuts. The emmet Ctrl + E is how I get emmet to work anywhere.
+* **[javascript.snippets.json](./javascript.snippets.json)** → Some JS Snippets
+* **[hot-tip-vscode-settings.json](./hot-tip-vscode-settings.json)** → Workspace settings I use for recording my short form content
 
 
 ## Keeping up to date
