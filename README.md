@@ -16,3 +16,17 @@ Enjoy! 😘
 **keybindings.json** → Custom Keyboard shortcuts. The emmet Ctrl + E is how I get emmet to work anywhere.
 **javascript.snippets.json** → Some JS Snippets
 **hot-tip-vscode-settings.json** → Workspace settings I use for recording my short form content
+
+
+## Keeping up to date
+
+This is for wes to remember what I did.
+
+I created "hard links", so the content is available inside git.
+
+```bash
+ln ~/Library/ApplicationSupport/Code/User/settings.json settings.json
+ln ~/Library/ApplicationSupport/Code/User/keybindings.json keybindings.json
+ln ~/Videos/hot-tips/.vscode/settings.json ./hot-tip-vscode-settings.json
+
+```

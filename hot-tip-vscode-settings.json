@@ -1,0 +1,18 @@
+{
+  "workbench.colorCustomizations": {
+    "editorGutter.background": "#00000000" // no gutter color
+  },
+  "editor.renderLineHighlight": "all",
+  "editor.lineNumbers": "off",
+  "editor.folding": false,
+  "editor.guides.indentation": false,
+  "breadcrumbs.enabled": false,
+  "editor.guides.bracketPairs": false,
+  "editor.matchBrackets": "never",
+  "editor.rulers": [],
+  "editor.minimap.enabled": false,
+  "editor.padding.top": 10,
+  // bumping mouse scroll goofs with eidting, so we "turn off" scrolling with this feature
+  "editor.scrollBeyondLastLine": false,
+  "editor.scrollbar.verticalScrollbarSize": 0
+}

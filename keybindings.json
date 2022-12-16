@@ -1,0 +1,34 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "ctrl+shift+alt+cmd+p",
+    "command": "editor.action.marker.next",
+    "when": "editorFocus && !editorReadonly"
+  },
+  {
+    "key": "tab",
+    "command": "editor.emmet.action.expandAbbreviation",
+    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "editor.emmet.action.expandAbbreviation"
+  },
+  {
+    "key": "tab",
+    "command": "-editor.emmet.action.expandAbbreviation",
+    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+0",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+h",
+    "command": "editor.action.triggerParameterHints"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+a",
+    "command": "editor.action.addSelectionToPreviousFindMatch"
+  }
+]
