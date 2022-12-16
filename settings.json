@@ -260,5 +260,5 @@
   "javascript.inlayHints.parameterNames.enabled": "literals",
   "typescript.inlayHints.parameterTypes.enabled": true,
   "javascript.inlayHints.enumMemberValues.enabled": true,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -2
 }
