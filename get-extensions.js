@@ -40,7 +40,7 @@ function makeMarkdownTable(extensions) {
 
   const markdownTable =  `Here are a list of all the extensions I use. This is an ever-changing setup, so if you saw me use something in a video or screenshot, it might be in this list!
 
-| ×××××××××× |  |
+| ×××××× |  |
 | --- | --- |
 ${rows.join(`\n`)}
 `

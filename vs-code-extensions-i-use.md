@@ -1,6 +1,6 @@
 Here are a list of all the extensions I use. This is an ever-changing setup, so if you saw me use something in a video or screenshot, it might be in this list!
 
-| ×××××××××× |  |
+| ×××××× |  |
 | --- | --- |
 | <a href="https://marketplace.visualstudio.com/items?itemName=stevencl.adddoccomments"><img width="100" src="https://stevencl.gallerycdn.vsassets.io/extensions/stevencl/adddoccomments/0.0.8/1499508681827/Microsoft.VisualStudio.Services.Icons.Default" alt="Add jsdoc comments"> | <h3><a href="https://marketplace.visualstudio.com/items?itemName=stevencl.adddoccomments">Add jsdoc comments</a></h3>Adds jsdoc @param and @return tags for selected function signatures in JS and TS |
 | <a href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache"><img width="100" src="https://mrmlnc.gallerycdn.vsassets.io/extensions/mrmlnc/vscode-apache/1.2.0/1546867810778/Microsoft.VisualStudio.Services.Icons.Default" alt="Apache Conf"> | <h3><a href="https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-apache">Apache Conf</a></h3>Syntax highlighter for Apache configuration files |
