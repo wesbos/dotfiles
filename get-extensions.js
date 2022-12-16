@@ -35,7 +35,7 @@ function makeLink(id) {
 
 function makeMarkdownTable(extensions) {
   const rows = extensions.map(extension => {
-    return `| <a href="${makeLink(extension.id)}"><img width="100" src="${extension.icon}" alt="${extension.title}"> | <h3><a href="${makeLink(extension.id)}">${extension.title}</a></h3><br>${extension.description} |`
+    return `| <a href="${makeLink(extension.id)}"><img width="100" src="${extension.icon}" alt="${extension.title}"> | <h3><a href="${makeLink(extension.id)}">${extension.title}</a></h3>${extension.description} |`
   });
 
   const markdownTable =  `Here are a list of all the extensions I use. This is an ever-changing setup, so if you saw me use something in a video or screenshot, it might be in this list!
