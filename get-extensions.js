@@ -5,7 +5,8 @@ To get a list of extensions:
 2. type in `@enabled`
 3. Open VS Code dev toosls `Help` → `Toggle Developer Tools`
 4. Paste the code from [get-extensions.js](./get-extensions.js) into the console
-5. It will be in your clipboard, so just paste into `vs-code-extensions-i-use.md`
+5. You have 10 seconds to scroll your extension list to gather them all. This is weird, but VS code uses virtual scrolling so they are only added to the dom when visible.
+5. run copy(markdown), and paste into `vs-code-extensions-i-use.md`
 
 */
 
