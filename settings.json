@@ -20,7 +20,6 @@
   "editor.fontWeight": "400",
   "editor.cursorBlinking": "solid",
   "editor.colorDecorators": false,
-  "workbench.activityBar.visible": false,
   "editor.rulers": [
     80,
     100
@@ -130,7 +129,7 @@
       "showSelection": true
     }
   },
-  "vsicons.presets.hideExplorerArrows": true,
+  "vsicons.presets.hideExplorerArrows": false,
   "errorLens.fontSize": "12",
   // "errorLens.fontFamily": "Comic Sans MS",
   "errorLens.onSave": true,
@@ -251,14 +250,13 @@
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "editor.inlayHints.enabled": "offUnlessPressed",
   "quokka.startViewStatusBar": false,
   "workbench.iconTheme": "eq-material-theme-icons",
   "backgroundCover.imagePath": "/Users/wesbos/Videos/hot-tips/art/blackgrit-6a2d636a530802d3ce97afb7af53a84b.png",
-  "window.dialogStyle": "custom",
   "typescript.inlayHints.parameterNames.enabled": "all",
   "javascript.inlayHints.parameterNames.enabled": "literals",
   "typescript.inlayHints.parameterTypes.enabled": true,
   "javascript.inlayHints.enumMemberValues.enabled": true,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "editor.inlayHints.enabled": "offUnlessPressed",
 }
