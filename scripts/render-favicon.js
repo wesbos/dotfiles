@@ -15,7 +15,6 @@ const colours = {
 };
 
 function getDeployStatus(text) {
-  console.log('Searching for status in', text);
   return Object.keys(colours).find((key) => text.includes(key));
 }
 
