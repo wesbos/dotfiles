@@ -45,8 +45,6 @@ async function favIcon() {
   // draw a circle
   ctx.beginPath();
   ctx.arc(SIZE - CIRCLE_SIZE, SIZE - CIRCLE_SIZE, CIRCLE_SIZE, 0, 2 * Math.PI);
-
-  console.log(deployStatus);
   ctx.fillStyle = colours[deployStatus];
   ctx.fill();
   // create a new favicon element
