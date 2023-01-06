@@ -7,10 +7,11 @@
 // ==/UserScript==
 
 const colours = {
-  progress: '#ffc600',
-  live: '#38e88a',
-  failed: '#FF0000',
-  canceled: '#cacaca',
+  progress: '#ffc600', // Building
+  live: '#38e88a', // Success!
+  failed: '#FF0000', // Failed
+  canceled: '#cacaca', // Canceled
+  rollback: '#489ff0', // Success, but not the current live site. Rollback-able
 };
 
 function getDeployStatus(text) {
