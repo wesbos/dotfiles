@@ -1,8 +1,9 @@
 // ==UserScript==
-// @name     Render Status Favicon
+// @name     Render.com Status Favicon
 // @version  1
 // @grant    none
 // @include https://dashboard.render.com/*
+// @description Shows the curent builds status by overlaying a yellow/green/red/grey dot on top of the favicon
 // ==/UserScript==
 
 const colours = {
