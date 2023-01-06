@@ -31,7 +31,6 @@ async function favIcon() {
   const deployHeader = document.querySelector('.deploy-header');
   if (!deployHeader) return;
   const deployStatus = getDeployStatus(deployHeader.innerText.toLowerCase());
-  console.log({ deployStatus });
   // create a new favicon with canvas
   const canvas = document.createElement('canvas');
   const ctx = canvas.getContext('2d');
