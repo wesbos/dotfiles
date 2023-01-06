@@ -47,7 +47,7 @@ async function favIcon() {
   ctx.arc(SIZE - CIRCLE_SIZE, SIZE - CIRCLE_SIZE, CIRCLE_SIZE, 0, 2 * Math.PI);
   ctx.fillStyle = colours[deployStatus];
   ctx.fill();
-  // create a new favicon element
+  // Update Favicon
   favicon.setAttribute('type', 'image/png');
   favicon.setAttribute('href', canvas.toDataURL('image/png'));
 }
