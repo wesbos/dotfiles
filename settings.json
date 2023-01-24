@@ -19,7 +19,6 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.fontWeight": "400",
   "editor.cursorBlinking": "solid",
-  "editor.colorDecorators": false,
   "editor.rulers": [
     80,
     100
@@ -51,7 +50,8 @@
   "editor.formatOnSave": true,
   // turn it off for JS
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false
@@ -66,6 +66,7 @@
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "eslint.alwaysShowStatus": true,
+  "eslint.lintTask.enable": true,
   "cSpell.diagnosticLevel": "Hint",
   "cSpell.customDictionaries": {
     "word-up": {
@@ -235,14 +236,15 @@
     "*": true,
     "yaml": false,
     "plaintext": false,
-    "markdown": false
+    "markdown": false,
+    "javascript": true
   },
   "tabnine.experimentalAutoImports": true,
   "editor.minimap.enabled": false,
   "editor.scrollbar.verticalScrollbarSize": 50,
   "javascript.inlayHints.parameterTypes.enabled": true,
   "javascript.inlayHints.variableTypes.enabled": true,
-  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.enumMemberValues.enabled": true,
@@ -257,6 +259,13 @@
   "javascript.inlayHints.parameterNames.enabled": "literals",
   "typescript.inlayHints.parameterTypes.enabled": true,
   "javascript.inlayHints.enumMemberValues.enabled": true,
-  "window.zoomLevel": -1,
   "editor.inlayHints.enabled": "offUnlessPressed",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "search.exclude": {
+    "**/bower_components": false
+  },
+  "window.zoomLevel": -2,
+  "editor.colorDecorators": false
 }

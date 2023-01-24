@@ -13,6 +13,7 @@
   "editor.minimap.enabled": false,
   "editor.padding.top": 10,
   // bumping mouse scroll goofs with eidting, so we "turn off" scrolling with this feature
-  "editor.scrollBeyondLastLine": false,
-  "editor.scrollbar.verticalScrollbarSize": 0
+  "editor.scrollBeyondLastLine": true,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "workbench.activityBar.visible": false
 }
