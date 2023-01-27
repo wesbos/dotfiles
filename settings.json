@@ -50,14 +50,14 @@
   "editor.formatOnSave": true,
   // turn it off for JS
   "[javascript]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.formatOnSave": false
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false
   },
   "[typescript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescriptreact]": {
     "editor.formatOnSave": false
@@ -266,6 +266,7 @@
   "search.exclude": {
     "**/bower_components": false
   },
-  "window.zoomLevel": -2,
-  "editor.colorDecorators": false
+  "editor.colorDecorators": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.zoomLevel": -2
 }

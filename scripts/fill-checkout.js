@@ -44,7 +44,8 @@ function insertButton() {
     setTimeout(insertButton, 1000); // try again in 1 second
   }
   // insert button
-  document.querySelector('.deets').appendChild(button);
+  const deets = document.querySelector('.deets');
+  if(deets) deets.appendChild(button);
 }
 
 insertButton();
