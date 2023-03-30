@@ -14,7 +14,8 @@ async function go() {
       return el;
     }
     // Wait 1 second and try again
-    return new Promise((resolve) => setTimeout(resolve, 1000));
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    return getEl();
   }
 
   const el = await getEl();
