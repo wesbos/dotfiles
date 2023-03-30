@@ -2,31 +2,27 @@
 // @name     Google Calendar Mouse Wheel Fix
 // @version  1
 // @grant    none
+// @description  Disables the mouse wheel scrolling on Google Calendar
 // @include  https://calendar.google.com/*
 // ==/UserScript==
 
-async function getEl() {
-  console.log("Checking for element");
-
-  const el = document.querySelector(`[data-mouse-wheel="true"]`);
-  if (el) {
-    console.log("Found element");
-    return el;
-  }
-  // Wait 1 second and try again
-  console.log("Element not found, waiting 1 second");
-  return new Promise((resolve) => setTimeout(resolve, 1000));
-}
-
-function waait(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
 async function go() {
-  console.log("GOING!");
+
+  async function getEl() {
+    const el = document.querySelector(`[data-mouse-wheel="true"]`);
+    if (el) {
+      console.log("Found element");
+      return el;
+    }
+    // Wait 1 second and try again
+    return new Promise((resolve) => setTimeout(resolve, 1000));
+  }
+
+  function waait(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+  }
+
   const el = await getEl();
-  console.log({ el });
-  console.log(Object.keys(el));
   const prop = Object.keys(el).find((key) => key.startsWith(`closure_lm`));
   const closure = el[prop];
   console.log({ prop, el, closure });
@@ -37,4 +33,12 @@ async function go() {
   closure.remove(eventName, closure.listeners[eventName].at(0).listener);
   delete el.dataset.mouseWheel;
 }
-setTimeout(go, 3000);
+
+// Firefox doesnt give you access to Object.keys in the page context, so we have to inject the script.
+function inject() {
+  const script = document.createElement("script");
+  script.textContent = `(${go.toString()})();`;
+  document.body.appendChild(script);
+}
+
+setTimeout(inject, 1000);
