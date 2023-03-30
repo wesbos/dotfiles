@@ -11,21 +11,15 @@ async function go() {
   async function getEl() {
     const el = document.querySelector(`[data-mouse-wheel="true"]`);
     if (el) {
-      console.log("Found element");
       return el;
     }
     // Wait 1 second and try again
     return new Promise((resolve) => setTimeout(resolve, 1000));
   }
 
-  function waait(ms) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
-  }
-
   const el = await getEl();
   const prop = Object.keys(el).find((key) => key.startsWith(`closure_lm`));
   const closure = el[prop];
-  console.log({ prop, el, closure });
   // FF uses DOMMouseScroll, Chrome uses mousewheel
   const eventName = closure.listeners.DOMMouseScroll
     ? "DOMMouseScroll"
